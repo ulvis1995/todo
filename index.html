@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="time">
+        <div id="date">
+            
+        </div>
+    </div>
+    <div class="todo">
+        <div class="todo-enter" id="todo-enter">
+            <div class="todo-placeholder">
+                <input type="text" placeholder="Добавить новое дело" autofocus>
+            </div>
+            <div class="todo-date">
+                <input type="date">
+            </div>
+            <div class="todo-button">
+                <div><button id="buttonAdd">Добавить</button></div>
+            </div>            
+        </div>
+        <div class="button-condition">
+            <div><button class="button-complete">Завершить все</button></div>
+            <div><button class="button-remove">Удалить все</button></div>
+        </div>
+        <div class="todo-list">
+            <ul class="todo-list_param" id="todo-list_param">
+                
+            </ul>
+        </div>
+    </div>
+    <script type="module" src="script-next.js"></script>
+</body>
+</html>

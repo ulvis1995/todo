@@ -1,0 +1,174 @@
+body {
+    background: rgba(64, 88, 245,0.8);
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-style: medium;
+}
+
+.time {
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    background: #fff;
+    width: 940px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 43px rgb(64, 88, 245);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date-item {
+    text-align: center;
+    text-decoration: none;
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-style: bold;
+    color: rgb(18, 41, 41);
+}
+
+.todo {
+    position: relative;
+    top: 110px;
+    margin: 0 auto;
+    background: #fff;
+    width: 940px;
+    min-height: 400px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 43px rgb(64, 88, 245);
+}
+
+
+.todo-enter, .todo-list {
+    padding: 20px;
+}
+
+.todo-enter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.todo-placeholder {
+    flex-grow: 1;
+    padding: 0 20px 0 0;
+}
+
+.todo-placeholder input, .todo-date input {
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: italic;
+    padding: 15px 5px;
+    margin: 5px 0;
+    border-style: none;
+    border: 2px solid rgba(21, 26, 63, 0.7);
+    border-radius: 5px;
+}
+
+.todo-date input {
+    width: 200px;
+    margin-right: 5px;
+}
+
+.todo-button, .button-condition  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button-condition {
+    margin-right: 125px;
+    flex-grow: 1;
+    justify-content: right;
+}
+
+.passive {
+    display: none;
+}
+
+.todo-button button, .button-condition button {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 15px 5px;
+    margin: 5px 0;
+    background: rgba(64, 88, 245,0.8);
+    border-radius: 5px;
+    border: 2px solid rgba(64, 88, 245,0.7);
+}
+
+.button-condition button {
+    margin-left: 10px;
+}
+
+.todo-list_param {
+    margin: 0;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(136, 163, 197, 0.5);
+    border: 2px solid rgba(21, 26, 63, 0.7);
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.todo-item-complete {
+    background-color: rgba(136, 197, 159, 0.5);
+}
+
+.todo-item-complete span {
+    text-decoration: line-through;
+}
+
+.button-delete {
+    font-size: 0;
+    line-height: 0;
+    padding: 5px;
+    margin: 0px;
+    background: rgba(64, 88, 245,0.8);
+    border-radius: 5px;
+    border: 2px solid rgba(64, 88, 245,0.7);
+}
+
+.material-symbols-outlined {
+  margin: 0;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.time-create {
+    width: 130px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: rgba(121, 174, 239, 0.5);
+    border: 1px solid rgba(21, 26, 63, 0.7);
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.time-create p {
+    margin: 0;
+}
+
+.todo-text {
+    flex-grow: 1;
+    max-width: 500px;
+    padding: 0 3px;
+}
