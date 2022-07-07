@@ -1,5 +1,6 @@
 import { list, TODOS, renderButtons } from "./script-next.js";
-import {getLocalDate, getLocalTime, dateEdit} from './dateChange.js'
+import {getLocalDate, getLocalTime, dateEdit} from './dateChange.js';
+import {completeToDo, deleteToDo} from './function.todo.js'
 
 export function render () {
     while (list.firstChild) {

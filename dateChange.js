@@ -1,3 +1,6 @@
+import { TODOS } from "./script-next.js";
+import { render } from "./render.js";
+
 export function getLocalDate (str) {
     return new Date(str).toLocaleDateString()
 }
